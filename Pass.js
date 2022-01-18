@@ -70,7 +70,7 @@ function log(txt) {
 }
 
 //click to copy text
-function copy(txt) {
+/*function copy(txt) {
   navigator.clipboard.writeText(txt)
   alert("You Have Copied The Text Succesfully Glorify Be To God In The Name Of Jesus Christ: "+txt);
-}
+}*/
