@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
 
+@media all and (min-width:1000px){
+  .glass{
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+}
+
 
 body {
     background-image: url("Background/TheCrossjpg.jpg");
@@ -20,8 +27,8 @@ body {
   }
 
   .container{
-    width: 600px;
-    height: 900px;
+    max-width: 600px;
+    min-height: 900px;
     text-align: center;
     display: block;
     font-size: 2rem;
@@ -47,8 +54,8 @@ body {
     border-radius: 20px;
     background:rgba(255, 255, 255,0.1);
     border: solid 0.6px #a39f9f;
-    width: 595px;
-    height: 740px;
+    min-width: 595px;
+    min-height: 740px;
     margin-top: 300px;
     margin-bottom: 20px;
     margin-right: -515px;
@@ -77,8 +84,8 @@ body {
 
   .btn{
     position: relative;
-    width: 130px;
-    height: 50px;
+    max-width: 130px;
+    min-height: 50px;
     font-size: 1.2rem;
     background: none;
     border: none;
@@ -93,8 +100,8 @@ body {
     content: "";
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
     backdrop-filter: blur(15px);
     background:rgba(255, 255, 255,0.1);
     border-radius: 10px;
@@ -103,8 +110,8 @@ body {
 }
 
 .btn::after{
-  width: 100%;
-  height: 90%;
+  max-width: 100%;
+  min-height: 90%;
   top: 25%;
   left: 4%;
   z-index: -3;
@@ -122,8 +129,8 @@ body {
 
 #characterAmountNumber{
     position: relative;
-    width: 70px;
-    height: 20px;
+    max-width: 70px;
+    min-height: 20px;
     font-size: 1.2rem;
     background: none;
     border-bottom: 2px solid red;
@@ -135,8 +142,8 @@ body {
 
 #characterAmountNumber:focus{
     position: relative;
-    width: 70px;
-    height: 20px;
+    max-width: 70px;
+    min-height: 20px;
     font-size: 1.2rem;
     background: none;
     border-bottom: 2px solid red;
@@ -150,8 +157,8 @@ body {
     content: "";
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
     backdrop-filter: blur(15px);
     background:rgba(255, 255, 255,0.1);
     border-radius: 10px;
